@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="radix4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comp_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cont_check_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="datatest_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decr_tets_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux4test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux8_1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux8_1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux8_1.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux8_1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux8test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="radixtest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="radixtest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="radixtest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="radixtest_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="register_n_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testshr2_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1471180633" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1471180633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471192196" xil_pn:in_ck="5438573312503711346" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1471192196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adder.v"/>
+      <outfile xil_pn:name="addertest.v"/>
+      <outfile xil_pn:name="comp_test.v"/>
+      <outfile xil_pn:name="complement_2.v"/>
+      <outfile xil_pn:name="cont_check.v"/>
+      <outfile xil_pn:name="controller.v"/>
+      <outfile xil_pn:name="count_check.v"/>
+      <outfile xil_pn:name="count_decr.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="datatest.v"/>
+      <outfile xil_pn:name="decr_tets.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="load_sel.v"/>
+      <outfile xil_pn:name="mux2_1.v"/>
+      <outfile xil_pn:name="mux4_1.v"/>
+      <outfile xil_pn:name="mux4test.v"/>
+      <outfile xil_pn:name="mux8_1.v"/>
+      <outfile xil_pn:name="mux8test.v"/>
+      <outfile xil_pn:name="nbit_adder.v"/>
+      <outfile xil_pn:name="next_state.v"/>
+      <outfile xil_pn:name="radix4booth.v"/>
+      <outfile xil_pn:name="radixtest.v"/>
+      <outfile xil_pn:name="register.v"/>
+      <outfile xil_pn:name="register_n.v"/>
+      <outfile xil_pn:name="shr_2.v"/>
+      <outfile xil_pn:name="testshr2.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1471597199" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-274641602755662833" xil_pn:start_ts="1471597199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471597199" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4166963899070234163" xil_pn:start_ts="1471597199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471180633" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6170060642517721224" xil_pn:start_ts="1471180633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1471192196" xil_pn:in_ck="5438573312503711346" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1471192196">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="adder.v"/>
+      <outfile xil_pn:name="addertest.v"/>
+      <outfile xil_pn:name="comp_test.v"/>
+      <outfile xil_pn:name="complement_2.v"/>
+      <outfile xil_pn:name="cont_check.v"/>
+      <outfile xil_pn:name="controller.v"/>
+      <outfile xil_pn:name="count_check.v"/>
+      <outfile xil_pn:name="count_decr.v"/>
+      <outfile xil_pn:name="datapath.v"/>
+      <outfile xil_pn:name="datatest.v"/>
+      <outfile xil_pn:name="decr_tets.v"/>
+      <outfile xil_pn:name="half_adder.v"/>
+      <outfile xil_pn:name="load_sel.v"/>
+      <outfile xil_pn:name="mux2_1.v"/>
+      <outfile xil_pn:name="mux4_1.v"/>
+      <outfile xil_pn:name="mux4test.v"/>
+      <outfile xil_pn:name="mux8_1.v"/>
+      <outfile xil_pn:name="mux8test.v"/>
+      <outfile xil_pn:name="nbit_adder.v"/>
+      <outfile xil_pn:name="next_state.v"/>
+      <outfile xil_pn:name="radix4booth.v"/>
+      <outfile xil_pn:name="radixtest.v"/>
+      <outfile xil_pn:name="register.v"/>
+      <outfile xil_pn:name="register_n.v"/>
+      <outfile xil_pn:name="shr_2.v"/>
+      <outfile xil_pn:name="testshr2.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1471597204" xil_pn:in_ck="5438573312503711346" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6107404778307741597" xil_pn:start_ts="1471597199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="radixtest_beh.prj"/>
+      <outfile xil_pn:name="radixtest_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1471597205" xil_pn:in_ck="-3828682076693151369" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3093350934228352" xil_pn:start_ts="1471597204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="radixtest_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

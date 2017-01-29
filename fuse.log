@@ -1,0 +1,61 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/karma/radix4/radixtest_isim_beh.exe -prj G:/karma/radix4/radixtest_beh.prj work.radixtest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/karma/radix4/half_adder.v" into library work
+Analyzing Verilog file "G:/karma/radix4/adder.v" into library work
+Analyzing Verilog file "G:/karma/radix4/nbit_adder.v" into library work
+Analyzing Verilog file "G:/karma/radix4/shr_2.v" into library work
+WARNING:HDLCompiler:248 - "G:/karma/radix4/shr_2.v" Line 32: Block identifier is required on this block
+Analyzing Verilog file "G:/karma/radix4/register_n.v" into library work
+Analyzing Verilog file "G:/karma/radix4/register.v" into library work
+Analyzing Verilog file "G:/karma/radix4/next_state.v" into library work
+Analyzing Verilog file "G:/karma/radix4/mux8_1.v" into library work
+Analyzing Verilog file "G:/karma/radix4/mux4_1.v" into library work
+Analyzing Verilog file "G:/karma/radix4/mux2_1.v" into library work
+Analyzing Verilog file "G:/karma/radix4/load_sel.v" into library work
+Analyzing Verilog file "G:/karma/radix4/count_decr.v" into library work
+Analyzing Verilog file "G:/karma/radix4/count_check.v" into library work
+Analyzing Verilog file "G:/karma/radix4/complement_2.v" into library work
+WARNING:HDLCompiler:248 - "G:/karma/radix4/complement_2.v" Line 31: Block identifier is required on this block
+Analyzing Verilog file "G:/karma/radix4/datapath.v" into library work
+Analyzing Verilog file "G:/karma/radix4/controller.v" into library work
+Analyzing Verilog file "G:/karma/radix4/radix4booth.v" into library work
+Analyzing Verilog file "G:/karma/radix4/radixtest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "G:/karma/radix4/datapath.v" Line 42: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/count_decr.v" Line 26: Size mismatch in connection of port <sum>. Formal port size is 8-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/datapath.v" Line 52: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/complement_2.v" Line 37: Size mismatch in connection of port <b>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/datapath.v" Line 54: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/datapath.v" Line 76: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "G:/karma/radix4/datapath.v" Line 87: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 8-bit.
+Completed static elaboration
+Compiling module mux2_1
+Compiling module register
+Compiling module half_adder
+Compiling module adder
+Compiling module nbit_adder
+Compiling module count_decr
+Compiling module count_check
+Compiling module complement_2
+Compiling module mux4_1
+Compiling module shr_2
+Compiling module register(SIZE=1)
+Compiling module mux8_1
+Compiling module datapath
+Compiling module register_n(SIZE=3)
+Compiling module next_state
+Compiling module load_sel
+Compiling module controller
+Compiling module radix4booth
+Compiling module radixtest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable G:/karma/radix4/radixtest_isim_beh.exe
+Fuse Memory Usage: 29276 KB
+Fuse CPU Usage: 812 ms

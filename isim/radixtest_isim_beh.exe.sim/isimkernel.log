@@ -1,0 +1,29 @@
+Command line:
+   radixtest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55192
+
+Fri Aug 19 14:30:07 2016
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 848.282 Meg
+
+ Total Signals          : 698
+ Total Nets             : 750
+ Total Signal Drivers   : 435
+ Total Blocks           : 122
+ Total Primitive Blocks : 89
+ Total Processes        : 445
+ Total Traceable Variables  : 36
+ Total Scalar Nets and Variables : 1149
+Total Line Count : 105
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 533.709 Meg
+
+Fri Aug 19 15:19:46 2016
+
